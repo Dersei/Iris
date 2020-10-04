@@ -5,10 +5,42 @@
              x:Class="Iris.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Button Text="Turn on" x:Name="ButtonTurnOn"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="ButtonTurnOn_OnClicked"/>
+        <Button Text="Turn off" x:Name="ButtonTurnOff"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="ButtonTurnOff_OnClicked"/>
+        <Button Text="Brightness down" x:Name="ButtonBrightnessDown"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="ButtonBrightnessDown_OnClicked"/>
+        <Button Text="Brightness up" x:Name="ButtonBrightnessUp"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="ButtonBrightnessUp_OnClicked"/>
+        <Button x:Name="ButtonWhite"
+                BackgroundColor="White"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="ButtonWhite_OnClicked"/>
+        <Button x:Name="ButtonBlue"
+                BackgroundColor="Blue"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="ButtonBlue_OnClicked"/>
+        <Button x:Name="ButtonGreen"
+                BackgroundColor="Green"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="ButtonGreen_OnClicked"/>
+        <Button x:Name="ButtonRed"
+                BackgroundColor="Red"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="ButtonRed_OnClicked"/>
     </StackLayout>
 
 </ContentPage>
