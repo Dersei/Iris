@@ -1,46 +1,59 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
+
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Iris"
              x:Class="Iris.MainPage">
 
-    <StackLayout>
-        <Button Text="Turn on" x:Name="ButtonTurnOn"
-                HorizontalOptions="Center"
-                VerticalOptions="CenterAndExpand"
-                Clicked="ButtonTurnOn_OnClicked"/>
-        <Button Text="Turn off" x:Name="ButtonTurnOff"
-                HorizontalOptions="Center"
-                VerticalOptions="CenterAndExpand"
-                Clicked="ButtonTurnOff_OnClicked"/>
-        <Button Text="Brightness down" x:Name="ButtonBrightnessDown"
-                HorizontalOptions="Center"
-                VerticalOptions="CenterAndExpand"
-                Clicked="ButtonBrightnessDown_OnClicked"/>
-        <Button Text="Brightness up" x:Name="ButtonBrightnessUp"
-                HorizontalOptions="Center"
-                VerticalOptions="CenterAndExpand"
-                Clicked="ButtonBrightnessUp_OnClicked"/>
-        <Button x:Name="ButtonWhite"
+    <Grid
+            Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Button Grid.Row="0" Grid.Column="3" Text="ON" x:Name="ButtonTurnOn"
+                Clicked="ButtonTurnOn_OnClicked"
+                CornerRadius="90"/>
+        <Button Grid.Row="0" Grid.Column="2" Text="OFF" x:Name="ButtonTurnOff"
+                Clicked="ButtonTurnOff_OnClicked" 
+                CornerRadius="90"/>
+        <Button Grid.Row="0" Grid.Column="1" Text="&#8681;" x:Name="ButtonBrightnessDown"
+                Clicked="ButtonBrightnessDown_OnClicked" 
+                CornerRadius="90"
+                FontSize="40" />
+        <Button Grid.Row="0" Grid.Column="0" Text="&#8679;" x:Name="ButtonBrightnessUp"
+                Clicked="ButtonBrightnessUp_OnClicked" 
+                CornerRadius="90"
+                FontSize="40" />
+        <Button Grid.Row="1" Grid.Column="3" Text="W" x:Name="ButtonWhite"
                 BackgroundColor="White"
-                HorizontalOptions="Center"
-                VerticalOptions="CenterAndExpand"
-                Clicked="ButtonWhite_OnClicked"/>
-        <Button x:Name="ButtonBlue"
+                TextColor="Black"
+                Clicked="ButtonWhite_OnClicked" 
+                CornerRadius="90"/>
+        <Button Grid.Row="1" Grid.Column="2" Text="B" x:Name="ButtonBlue"
                 BackgroundColor="Blue"
-                HorizontalOptions="Center"
-                VerticalOptions="CenterAndExpand"
-                Clicked="ButtonBlue_OnClicked"/>
-        <Button x:Name="ButtonGreen"
+                Clicked="ButtonBlue_OnClicked" 
+                CornerRadius="90"/>
+        <Button Grid.Row="1" Grid.Column="1" Text="G" x:Name="ButtonGreen"
                 BackgroundColor="Green"
-                HorizontalOptions="Center"
-                VerticalOptions="CenterAndExpand"
-                Clicked="ButtonGreen_OnClicked"/>
-        <Button x:Name="ButtonRed"
+                Clicked="ButtonGreen_OnClicked" 
+                CornerRadius="90"/>
+        <Button Grid.Row="1" Grid.Column="0" Text="R" x:Name="ButtonRed"
                 BackgroundColor="Red"
-                HorizontalOptions="Center"
-                VerticalOptions="CenterAndExpand"
-                Clicked="ButtonRed_OnClicked"/>
-    </StackLayout>
+                Clicked="ButtonRed_OnClicked" 
+                CornerRadius="90"/>
+    </Grid>
 
 </ContentPage>
