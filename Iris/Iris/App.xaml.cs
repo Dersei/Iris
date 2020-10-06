@@ -10,6 +10,7 @@ namespace Iris
     {
         public App()
         {
+            Device.SetFlags(new[]{ "Shapes_Experimental" });
             InitializeComponent();
 
             MainPage = new MainPage();
