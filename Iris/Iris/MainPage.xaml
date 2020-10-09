@@ -77,73 +77,73 @@
         <Button Grid.Row="2" Grid.Column="3" Text="FLASH" x:Name="ButtonFlash"
                 BackgroundColor="Gray"
                 TextColor="White"
-                Clicked="ButtonWhite_OnClicked" 
+                Clicked="ButtonFlash_OnClicked" 
                 CornerRadius="90"/>
         <Button Grid.Row="2" Grid.Column="2" x:Name="ButtonBlue1"
                 BackgroundColor="DodgerBlue"
-                Clicked="ButtonBlue_OnClicked" 
+                Clicked="ButtonBlue1_OnClicked" 
                 CornerRadius="90"/>
         <Button Grid.Row="2" Grid.Column="1" x:Name="ButtonGreen1"
                 BackgroundColor="#188F35"
-                Clicked="ButtonGreen_OnClicked" 
+                Clicked="ButtonGreen1_OnClicked" 
                 CornerRadius="90"/>
         <Button Grid.Row="2" Grid.Column="0" x:Name="ButtonRed1"
                 BackgroundColor="#CE1D17"
-                Clicked="ButtonRed_OnClicked" 
+                Clicked="ButtonRed1_OnClicked" 
                 CornerRadius="90"/>
         
         <Button Grid.Row="3" Grid.Column="3" Text="STROBE" x:Name="ButtonStrobe"
                 BackgroundColor="Gray"
                 TextColor="White"
-                Clicked="ButtonWhite_OnClicked" 
+                Clicked="ButtonStrobe_OnClicked" 
                 CornerRadius="90"/>
         <Button Grid.Row="3" Grid.Column="2" x:Name="ButtonBlue2"
                 BackgroundColor="Purple"
-                Clicked="ButtonBlue_OnClicked" 
+                Clicked="ButtonBlue2_OnClicked" 
                 CornerRadius="90"/>
         <Button Grid.Row="3" Grid.Column="1" x:Name="ButtonGreen2"
                 BackgroundColor="#0190D4"
-                Clicked="ButtonGreen_OnClicked" 
+                Clicked="ButtonGreen2_OnClicked" 
                 CornerRadius="90"/>
         <Button Grid.Row="3" Grid.Column="0" x:Name="ButtonRed2"
                 BackgroundColor="#E04411"
-                Clicked="ButtonRed_OnClicked" 
+                Clicked="ButtonRed2_OnClicked" 
                 CornerRadius="90"/>
         
         <Button Grid.Row="4" Grid.Column="3" Text="SMOOTH" x:Name="ButtonSmooth"
                 BackgroundColor="Gray"
                 TextColor="White"
-                Clicked="ButtonWhite_OnClicked" 
+                Clicked="ButtonSmooth_OnClicked" 
                 CornerRadius="90"/>
         <Button Grid.Row="4" Grid.Column="2" x:Name="ButtonBlue3"
                 BackgroundColor="DeepPink"
-                Clicked="ButtonBlue_OnClicked" 
+                Clicked="ButtonBlue3_OnClicked" 
                 CornerRadius="90"/>
         <Button Grid.Row="4" Grid.Column="1" x:Name="ButtonGreen3"
                 BackgroundColor="#016A9A"
-                Clicked="ButtonGreen_OnClicked" 
+                Clicked="ButtonGreen3_OnClicked" 
                 CornerRadius="90"/>
         <Button Grid.Row="4" Grid.Column="0" x:Name="ButtonRed3"
                 BackgroundColor="#ED9F01"
-                Clicked="ButtonRed_OnClicked" 
+                Clicked="ButtonRed3_OnClicked" 
                 CornerRadius="90"/>
         
         <Button Grid.Row="5" Grid.Column="3" Text="MODE" x:Name="ButtonMode"
                 BackgroundColor="Gray"
                 TextColor="White"
-                Clicked="ButtonWhite_OnClicked" 
+                Clicked="ButtonMode_OnClicked" 
                 CornerRadius="90"/>
         <Button Grid.Row="5" Grid.Column="2" x:Name="ButtonBlue4"
                 BackgroundColor="#D71E83"
-                Clicked="ButtonBlue_OnClicked" 
+                Clicked="ButtonBlue4_OnClicked" 
                 CornerRadius="90"/>
         <Button Grid.Row="5" Grid.Column="1" x:Name="ButtonGreen4"
                 BackgroundColor="#005278"
-                Clicked="ButtonGreen_OnClicked" 
+                Clicked="ButtonGreen4_OnClicked" 
                 CornerRadius="90"/>
         <Button Grid.Row="5" Grid.Column="0" x:Name="ButtonRed4"
                 BackgroundColor="#F4C601"
-                Clicked="ButtonRed_OnClicked" 
+                Clicked="ButtonRed4_OnClicked" 
                 CornerRadius="90"/>
         
     </Grid>
