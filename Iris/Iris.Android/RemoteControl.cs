@@ -14,7 +14,7 @@ namespace Iris.Android
 
         public RemoteControl()
         {
-            _irManager = (ConsumerIrManager?)MainActivity.Instance.GetSystemService (Context.ConsumerIrService);
+            _irManager = (ConsumerIrManager?)MainActivity.Instance!.GetSystemService (Context.ConsumerIrService);
             if(_irManager is null) throw new NullReferenceException("Problem with IrManager");
         }
 
